@@ -1,0 +1,363 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+        font-size:10px;    
+        font-family: 'Fira Sans', sans-serif;
+        height: 100%;
+}
+        
+body{
+   height: 100%;
+}
+   
+
+nav{
+    background-attachment: fixed;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    background-image: url(https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    filter: brightness(90%);
+}
+
+header h1{
+    white-space: nowrap;
+    position: relative;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    line-height: 30vh;
+    margin-left: 50px;
+}
+
+.banner{
+    width:100%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul{
+   width:100%;
+   top:350px;
+    list-style: none;
+    position:relative; 
+    z-index:2;
+}
+nav ul a li{
+    background-color: yellow;
+  position: relative;
+  display: inline-block;
+  width:378px;
+  border:5px solid rgba(179, 163, 19, 0.938);
+padding: 11px;
+}
+nav ul a 
+{
+ font-size:2rem;
+ text-align:center;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 0.2rem;
+}
+nav ul li:hover
+{
+    background-color: rgb(244, 245, 178);
+
+}
+nav ul a li:hover
+{
+    color:rgba(255, 0, 0, 0.74);
+}
+
+article img{
+    border:5px solid rgba(255, 255, 255, 0.938);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+article{
+  position: relative;
+    display: inline-block;
+    top:400px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    width: 24%;
+}
+
+figcaption{
+position: relative;
+top:20px;
+ text-align: center;
+ font-size: 2rem;
+ color: rgb(0, 0, 0);
+ font-weight: bold; 
+
+}
+
+figcaption span { 
+    padding:3px;
+    background-color: rgb(255, 255, 255); 
+}
+nav ul li a i{
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+main{
+    text-align: center;
+   position: relative;
+   top: 70px;
+}
+
+
+.bg1{
+    background-image: url(https://wallpaperaccess.com/full/2674228.jpg);
+
+}
+
+
+footer{
+    position: relative;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       color: #fff;
+       text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+       text-align: center;
+       background-color: rgb(0, 0, 0);
+       height: 60px; 
+   }
+
+   .wrapper {
+    min-height: 70%;
+    height: auto !important;
+    height: 70%;
+    margin: 0px auto -50px; 
+}
+
+
+.push{
+    height: 60px;    
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;}
+
+  .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    
+  }
+  footer a{
+
+     position: relative;
+     left: 0px;
+     bottom:0px;
+     top:12px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: #d350a1;
+    color: white;
+  }
+
+  .fa-google {
+    background: #f80202;
+    color: rgb(250, 250, 250);
+  }
+
+  footer p{
+      position: relative;
+      top:7px;
+  }
+
+  nav a:link{
+      color: black;
+  }
+  nav a:visited {color: #060235}  
+
+ 
+  @media(max-width:1366px){
+    nav ul a li{
+        width:270px;
+        border:5px solid rgba(179, 163, 19, 0.938);
+      padding: 11px;
+      }
+      
+    nav ul{
+        width:100%;
+        top:400px;
+         list-style: none;
+         position:relative; 
+         z-index:2;
+     }
+     .wrapper {
+        min-height: 100%;
+     
+        height: 100%
+    }
+    * { max-width: 100%; height: auto; }
+  
+    }
+  
+
+  @media(max-width:1024px){ /* ipad pro resolution */
+  
+    article{
+        position: relative;
+          display: inline-block;
+          top:600px;
+          right:0px;
+          bottom:0px;
+          left:0px;
+          width: 24%;
+      }
+      * { max-width: 100%; height: auto; }
+
+      nav ul a li{
+      width:202px;
+      border:5px solid rgba(179, 163, 19, 0.938);
+    padding: 11px;
+    }
+
+    nav ul{
+        width:100%;
+        top:400px;
+         list-style: none;
+         position:relative; 
+         z-index:2;
+     }
+     header{
+         height:30vh;
+     }
+
+     article{
+        position: relative;
+          display: inline-block;
+          top:500px;
+          right:0px;
+          bottom:0px;
+        
+          width: 24%;
+      }
+
+}
+
+
+
+
+@media (max-width:375px){
+
+    header h1{font-size: 2rem;
+    }
+    nav ul a li{ 
+    position: relative;
+    display: inline-block;
+    width:43px;
+    border:5px solid rgba(179, 163, 19, 0.938);
+  padding: 11px;
+  }
+
+
+         article img{
+            border:5px solid rgba(255, 255, 255, 0.938);
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+       
+           
+        }
+        article{
+            position: relative;
+              display: inline-block;
+              top:350px;
+              right:0px;
+              bottom:0px;
+              left:0px;
+              width: 100%;
+              padding:16px
+          }
+
+          figcaption{
+            position: relative;
+            top:10px;
+             font-size: 1.5rem;
+            }
+
+            header h1{
+                line-height: 25vh;           
+            }
+}
+
+@media (max-width:812px){
+    nav ul{
+        width:100%;
+        top:160px;
+         list-style: none;
+         position:relative; 
+         z-index:2;
+     }
+     nav ul a li{
+        position: relative;
+        display: inline-block;
+        width:160px;
+      padding: 10px;
+      }
+     
+      * { max-width: 100%; height: auto; }
+     header{ height: 45vh;}
+
+     article{
+        position: relative;
+          display: inline-block;
+          top:200px;
+          right:0px;
+          bottom:0px;
+          left:0px;
+          width: 40%;
+          padding:20px
+      }
+      article img{
+        border:5px solid rgba(255, 255, 255, 0.938);
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+}
+.wrapper {
+    min-height: 100%;
+ 
+    height: 100%
+}
+
+}
+
